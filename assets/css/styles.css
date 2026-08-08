@@ -472,3 +472,25 @@
     display:none !important;
   }
 }
+/* AJUSTE FINAL MOBILE — HERO */
+@media(max-width:600px){
+
+  .proof{
+    margin-bottom:22px !important;
+  }
+
+  .hero-art{
+    margin-top:12px !important;
+  }
+
+  .hero-art > img:not([hidden]){
+    margin-top:0 !important;
+  }
+
+  .marquee{
+    margin-top:18px !important;
+    padding:16px 18px !important;
+    line-height:1.6 !important;
+    font-size:10px !important;
+  }
+}
