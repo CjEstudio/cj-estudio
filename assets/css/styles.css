@@ -386,3 +386,17 @@
     margin-top: 32px;
   }
 }
+/* AJUSTE 2 — HERO EXACTO A LA ALTURA DE PANTALLA */
+@media (min-width: 901px) {
+  .hero {
+    min-height: calc(100vh - 76px);
+    height: calc(100vh - 76px);
+    padding-top: 95px;
+    padding-bottom: 25px;
+    overflow: hidden;
+  }
+
+  .proof {
+    margin-top: 28px;
+  }
+}
