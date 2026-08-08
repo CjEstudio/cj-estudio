@@ -9,3 +9,22 @@ $('#testimonialsGrid').innerHTML=testimonials.map(t=>`<article class="testimonia
 $('#qService').innerHTML='<option value="">Selecciona un servicio</option>'+services.map(s=>`<option>${esc(s.title)}</option>`).join('');
 const social=[['Instagram',site.instagram],['TikTok',site.tiktok],['Facebook',site.facebook],['YouTube',site.youtube]].filter(x=>x[1]&&x[1]!=='#');$('#social').innerHTML=social.map(([n,u])=>`<a href="${esc(u)}" target="_blank">${esc(n)}</a>`).join(' ');
 $('#quoteForm').addEventListener('submit',e=>{e.preventDefault();const msg=`Hola CJ ESTUDIO 👋\n\nSoy ${$('#qName').value}.\nMe interesa: ${$('#qService').value}.\n\n${$('#qMessage').value}`;window.open('https://wa.me/'+(site.whatsapp||'')+'?text='+encodeURIComponent(msg),'_blank')})});
+/* CJ ESTUDIO — IMAGEN SOBRE NOSOTROS */
+fetch('/data/site.json', { cache: 'no-store' })
+  .then(response => response.json())
+  .then(site => {
+    if (site.about_image) {
+      const aboutVisual = document.querySelector('.about-visual');
+
+      if (aboutVisual) {
+        aboutVisual.innerHTML = `
+          <img
+            src="${site.about_image}"
+            alt="CJ ESTUDIO - Sobre Nosotros"
+            class="about-image"
+          >
+        `;
+      }
+    }
+  })
+  .catch(error => console.error('Error cargando imagen Nosotros:', error));
