@@ -400,3 +400,36 @@
     margin-top: 28px;
   }
 }
+/* =========================================================
+   CJ ESTUDIO — PUBLICIDAD PRINCIPAL HERO
+   ========================================================= */
+
+.hero-art > img{
+  display:block;
+  width:100%;
+  max-width:560px;
+  height:510px;
+  object-fit:cover;
+  object-position:center;
+  border-radius:26px;
+  border:1px solid rgba(217,170,80,.28);
+  box-shadow:
+    0 30px 80px rgba(0,0,0,.65),
+    0 0 45px rgba(217,170,80,.08);
+}
+
+@media(max-width:1000px){
+  .hero-art > img{
+    max-width:650px;
+    height:480px;
+    margin:auto;
+  }
+}
+
+@media(max-width:600px){
+  .hero-art > img{
+    width:100%;
+    height:360px;
+    border-radius:20px;
+  }
+}
