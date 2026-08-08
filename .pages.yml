@@ -44,6 +44,10 @@ content:
         label: Texto Sobre Nosotros
         type: text
 
+      - name: about_image
+        label: Imagen Sobre Nosotros
+        type: image
+
       - name: cta_title
         label: Título llamada a la acción
         type: string
