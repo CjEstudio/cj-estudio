@@ -433,3 +433,42 @@
     border-radius:20px;
   }
 }
+/* =========================================================
+   CORRECCIÓN HERO CON PUBLICIDAD — CELULAR + PC
+   ========================================================= */
+
+/* Si existe publicidad, la esfera antigua debe desaparecer sí o sí */
+#visualFallback[hidden]{
+  display:none !important;
+}
+
+/* PUBLICIDAD */
+.hero-art > img:not([hidden]){
+  display:block !important;
+}
+
+/* CELULAR */
+@media(max-width:600px){
+
+  .hero-art{
+    min-height:0 !important;
+    height:auto !important;
+    margin-top:38px !important;
+    overflow:visible !important;
+  }
+
+  .hero-art > img:not([hidden]){
+    width:100% !important;
+    max-width:none !important;
+    height:auto !important;
+    aspect-ratio:3 / 2;
+    object-fit:cover;
+    object-position:center;
+    border-radius:20px;
+    margin:0 auto !important;
+  }
+
+  #visualFallback[hidden]{
+    display:none !important;
+  }
+}
