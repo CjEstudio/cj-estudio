@@ -1,8 +1,9 @@
 {
   "brand": "CJ ESTUDIO",
-  "eyebrow": "CREAMOS · DISEÑAMOS · CONECTAMOS",
+  "eyebrow": "CREAMOS · DISEÑAMOS · CONECTAMOS ✦",
   "headline": "Soluciones creativas integrales para marcas, negocios y momentos inolvidables.",
   "hero_note": "Branding · Diseño Web · Diseño Gráfico · Fotografía · Video · DJ & Eventos",
+  "logo": "/media/logo-cj-estudio.png",
   "about_title": "Pasión por lo que hacemos",
   "about_text": "CJ ESTUDIO reúne estrategia, diseño, tecnología y creatividad para ayudar a marcas y personas a construir una presencia profesional, memorable y con propósito.",
   "whatsapp": "593000000000",
@@ -12,7 +13,5 @@
   "instagram": "#",
   "tiktok": "#",
   "facebook": "#",
-  "youtube": "#",
-  "hero_image": "",
-  "logo": "/media/logo-cj-estudio.png"
+  "youtube": "#"
 }
