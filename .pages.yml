@@ -11,22 +11,78 @@ content:
     path: data/site.json
     format: json
     fields:
-      - { name: brand, label: Nombre de la marca, type: string, required: true }
-      - { name: eyebrow, label: Frase superior, type: string }
-      - { name: headline, label: Texto principal, type: text }
-      - { name: hero_note, label: Línea de servicios, type: string }
-      - { name: hero_image, label: Imagen principal, type: image }
-      - { name: logo, label: Logo, type: image }
-      - { name: about_title, label: Título Sobre Nosotros, type: string }
-      - { name: about_text, label: Texto Sobre Nosotros, type: text }
-      - { name: whatsapp, label: WhatsApp (solo números), type: string }
-      - { name: phone_display, label: Teléfono visible, type: string }
-      - { name: email, label: Correo, type: string }
-      - { name: location, label: Ubicación, type: string }
-      - { name: instagram, label: Instagram URL, type: string }
-      - { name: tiktok, label: TikTok URL, type: string }
-      - { name: facebook, label: Facebook URL, type: string }
-      - { name: youtube, label: YouTube URL, type: string }
+      - name: brand
+        label: Nombre de la marca
+        type: string
+        required: true
+
+      - name: eyebrow
+        label: Frase superior
+        type: string
+
+      - name: headline
+        label: Texto principal
+        type: text
+
+      - name: hero_note
+        label: Línea de servicios
+        type: string
+
+      - name: hero_image
+        label: Imagen principal
+        type: image
+
+      - name: logo
+        label: Logotipo
+        type: image
+
+      - name: about_title
+        label: Título Sobre Nosotros
+        type: string
+
+      - name: about_text
+        label: Texto Sobre Nosotros
+        type: text
+
+      - name: cta_title
+        label: Título llamada a la acción
+        type: string
+
+      - name: cta_text
+        label: Texto llamada a la acción
+        type: text
+
+      - name: whatsapp
+        label: WhatsApp
+        type: string
+
+      - name: phone_display
+        label: Teléfono visible
+        type: string
+
+      - name: email
+        label: Correo
+        type: string
+
+      - name: location
+        label: Ubicación
+        type: string
+
+      - name: instagram
+        label: Instagram URL
+        type: string
+
+      - name: tiktok
+        label: TikTok URL
+        type: string
+
+      - name: facebook
+        label: Facebook URL
+        type: string
+
+      - name: youtube
+        label: YouTube URL
+        type: string
 
   - name: services
     label: Servicios
@@ -35,9 +91,18 @@ content:
     format: json
     list: true
     fields:
-      - { name: title, label: Servicio, type: string, required: true }
-      - { name: description, label: Descripción, type: text }
-      - { name: icon, label: Icono / símbolo, type: string }
+      - name: title
+        label: Servicio
+        type: string
+        required: true
+
+      - name: description
+        label: Descripción
+        type: text
+
+      - name: icon
+        label: Icono
+        type: string
 
   - name: projects
     label: Portafolio
@@ -46,12 +111,52 @@ content:
     format: json
     list: true
     fields:
-      - { name: title, label: Nombre del proyecto, type: string, required: true }
+      - name: title
+        label: Nombre del proyecto
+        type: string
+        required: true
+
       - name: category
         label: Categoría
         type: select
         options:
-          values: [Branding, Diseño Web, Diseño Gráfico, Fotografía, Video, DJ & Eventos]
-      - { name: description, label: Descripción, type: text }
-      - { name: image, label: Imagen, type: image }
-      - { name: featured, label: Destacado, type: boolean }
+          values:
+            - Branding
+            - Diseño Web
+            - Diseño Gráfico
+            - Fotografía
+            - Video
+            - DJ & Eventos
+
+      - name: description
+        label: Descripción
+        type: text
+
+      - name: image
+        label: Imagen
+        type: image
+
+      - name: featured
+        label: Destacado
+        type: boolean
+
+  - name: testimonials
+    label: Testimonios
+    type: file
+    path: data/testimonials.json
+    format: json
+    list: true
+    fields:
+      - name: name
+        label: Cliente / Marca
+        type: string
+        required: true
+
+      - name: role
+        label: Proyecto / Servicio
+        type: string
+
+      - name: quote
+        label: Testimonio
+        type: text
+        required: true
