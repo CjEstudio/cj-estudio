@@ -3,8 +3,12 @@
   "eyebrow": "CREAMOS · DISEÑAMOS · CONECTAMOS",
   "headline": "Soluciones creativas integrales para marcas, negocios y momentos inolvidables.",
   "hero_note": "Branding · Diseño Web · Diseño Gráfico · Fotografía · Video · DJ & Eventos",
+  "hero_image": "/media/chatgpt-image-8-ago-2026-040933-pm.png",
+  "logo": "/media/logo-cj-estudio.png",
   "about_title": "Ideas que se convierten en experiencias",
   "about_text": "CJ ESTUDIO combina estrategia, diseño, tecnología y producción audiovisual para construir marcas, experiencias y contenidos que conectan de verdad. Trabajamos cada proyecto de forma cercana, cuidando tanto la idea como los detalles.",
+  "cta_title": "Tu próxima gran idea puede empezar aquí.",
+  "cta_text": "Cuéntanos qué necesitas y diseñemos juntos una solución a la medida.",
   "whatsapp": "593000000000",
   "phone_display": "+593 000 000 000",
   "email": "hola@cjestudio.com",
@@ -12,9 +16,5 @@
   "instagram": "#",
   "tiktok": "#",
   "facebook": "#",
-  "youtube": "#",
-  "hero_image": "",
-  "logo": "/media/logo-cj-estudio.png",
-  "cta_title": "Tu próxima gran idea puede empezar aquí.",
-  "cta_text": "Cuéntanos qué necesitas y diseñemos juntos una solución a la medida."
+  "youtube": "#"
 }
