@@ -1,0 +1,1 @@
+Reemplaza index.html, assets/css/styles.css, assets/js/app.js, data/site.json, data/services.json, data/projects.json y .pages.yml. Agrega data/testimonials.json. No borres media.

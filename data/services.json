@@ -1,7 +1,32 @@
 [
-  {"title":"Branding & Identidad Visual","description":"Logotipos, identidad visual y sistemas de marca construidos con estrategia.","icon":"✦"},
-  {"title":"Diseño & Desarrollo Web","description":"Sitios web modernos, responsive y pensados para convertir visitas en clientes.","icon":"⌘"},
-  {"title":"Diseño Gráfico","description":"Piezas publicitarias, catálogos y contenido visual para comunicar y vender.","icon":"◈"},
-  {"title":"Fotografía & Video","description":"Producto, retrato, eventos y contenido audiovisual con acabado profesional.","icon":"◉"},
-  {"title":"DJ & Eventos","description":"Música, ambientación y experiencia para eventos sociales y corporativos.","icon":"♫"}
+  {
+    "title": "Branding & Identidad",
+    "description": "Construimos marcas con personalidad: concepto, logo, identidad visual y aplicaciones.",
+    "icon": "✦"
+  },
+  {
+    "title": "Diseño Web",
+    "description": "Sitios modernos, rápidos y responsive, pensados para comunicar y convertir.",
+    "icon": "⌘"
+  },
+  {
+    "title": "Diseño Gráfico",
+    "description": "Contenido visual, publicidad, catálogos y piezas que mantienen una imagen profesional.",
+    "icon": "◈"
+  },
+  {
+    "title": "Fotografía",
+    "description": "Producto, retrato, eventos y sesiones con una estética cuidada y profesional.",
+    "icon": "◉"
+  },
+  {
+    "title": "Video",
+    "description": "Contenido audiovisual para marcas, campañas, eventos y redes sociales.",
+    "icon": "▶"
+  },
+  {
+    "title": "DJ & Eventos",
+    "description": "Música, energía y ambientación para crear una experiencia memorable.",
+    "icon": "♫"
+  }
 ]

@@ -1,5 +1,44 @@
 [
-  {"title":"Identidad visual","category":"Branding","description":"Proyecto demostrativo. Reemplázalo desde Pages CMS por un trabajo real.","image":"","featured":true},
-  {"title":"Sitio web corporativo","category":"Diseño Web","description":"Proyecto demostrativo para mostrar cómo aparecerán tus proyectos reales.","image":"","featured":false},
-  {"title":"Fotografía comercial","category":"Fotografía","description":"Espacio listo para subir fotografías reales desde el panel.","image":"","featured":false}
+  {
+    "title": "Identidad visual",
+    "category": "Branding",
+    "description": "Proyecto demostrativo. Reemplázalo desde Pages CMS por un trabajo real.",
+    "image": "",
+    "featured": true
+  },
+  {
+    "title": "Sitio web corporativo",
+    "category": "Diseño Web",
+    "description": "Espacio preparado para mostrar proyectos de desarrollo y diseño web.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "title": "Fotografía comercial",
+    "category": "Fotografía",
+    "description": "Sube tus sesiones, campañas o fotografía de producto desde Pages CMS.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "title": "Contenido audiovisual",
+    "category": "Video",
+    "description": "Muestra aquí reels, campañas, eventos o producciones audiovisuales.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "title": "Diseño publicitario",
+    "category": "Diseño Gráfico",
+    "description": "Flyers, campañas, catálogos y piezas para redes sociales.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "title": "Experiencias & eventos",
+    "category": "DJ & Eventos",
+    "description": "Eventos sociales y corporativos con producción y ambientación.",
+    "image": "",
+    "featured": false
+  }
 ]
