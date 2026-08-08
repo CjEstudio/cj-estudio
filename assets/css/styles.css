@@ -572,3 +572,68 @@ body {
     object-position: center !important;
   }
 }
+/* =========================================================
+   AJUSTE GLOBAL DE ESPACIADOS — CJ ESTUDIO
+   ========================================================= */
+
+/* Reduce espacio vertical general entre secciones */
+.section{
+  padding-top:72px !important;
+  padding-bottom:72px !important;
+}
+
+/* Nosotros un poco más compacto */
+.about{
+  padding-top:58px !important;
+  padding-bottom:58px !important;
+}
+
+/* Servicios más pegado a Nosotros */
+#servicios{
+  padding-top:52px !important;
+}
+
+/* Portafolio */
+#portafolio{
+  padding-top:62px !important;
+}
+
+/* Proceso */
+#proceso{
+  padding-top:62px !important;
+}
+
+/* Contacto */
+#contacto{
+  padding-top:62px !important;
+}
+
+/* Encabezados internos */
+.section-head{
+  margin-bottom:30px !important;
+}
+
+/* CELULAR */
+@media(max-width:600px){
+
+  .section{
+    padding-top:48px !important;
+    padding-bottom:48px !important;
+  }
+
+  .about{
+    padding-top:42px !important;
+    padding-bottom:42px !important;
+  }
+
+  #servicios,
+  #portafolio,
+  #proceso,
+  #contacto{
+    padding-top:42px !important;
+  }
+
+  .section-head{
+    margin-bottom:24px !important;
+  }
+}
